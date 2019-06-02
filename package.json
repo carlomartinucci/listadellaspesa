@@ -1,5 +1,6 @@
 {
-  "name": "greta",
+  "name": "listadellaspesa",
+  "homepage": "https://carlomartinucci.github.io/listadellaspesa",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

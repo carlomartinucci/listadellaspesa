@@ -18,7 +18,7 @@ const TopNavBar = props => {
     <div>
       <Navbar color="light" light expand="md">
         <NavbarBrand tag={Link} to="/">
-          Greta
+          Lista della spesa
         </NavbarBrand>
 
         <NavbarToggler onClick={toggleIsOpen} />
@@ -26,19 +26,19 @@ const TopNavBar = props => {
           <Nav className="ml-auto" navbar>
             <NavItem>
               <NavLink tag={Link} to="/calendar" onClick={toggleIsOpen}>
-                Menu di oggi
+                Menu
               </NavLink>
             </NavItem>
 
             <NavItem>
               <NavLink tag={Link} to="/shopping" onClick={toggleIsOpen}>
-                Fai la spesa
+                Scegli
               </NavLink>
             </NavItem>
 
             <NavItem>
               <NavLink tag={Link} to="/shopping-list" onClick={toggleIsOpen}>
-                Lista della spesa
+                Lista
               </NavLink>
             </NavItem>
 
