@@ -18,7 +18,7 @@ const TopNavBar = props => {
     <div>
       <Navbar color="light" light expand="md">
         <NavbarBrand tag={Link} to="/">
-          Lista della spesa
+          Lalalista
         </NavbarBrand>
 
         <NavbarToggler onClick={toggleIsOpen} />
