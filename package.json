@@ -1,6 +1,6 @@
 {
   "name": "listadellaspesa",
-  "homepage": "https://carlomartinucci.github.io/listadellaspesa",
+  "homepage": "https://listadellaspesa.netlify.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
