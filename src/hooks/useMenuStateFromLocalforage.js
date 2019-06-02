@@ -14,7 +14,8 @@ const useMenuStateFromLocalforage = ({
     menuStateLoaded.current = true;
     localforage
       .getItem("menu")
-      .then(menuState => {
+      .then(serverMenuState => {
+        const menuState = serverMenuState || {}
         menuDispatch({ type: MENU_LOAD_STORAGE, payload: { menuState } });
         Object.entries(menuState).forEach(([date, menu]) => {
           updateCalendar(date, calendarTitleFromMenu(menu));
